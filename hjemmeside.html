@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="http://www.knut-andre-vikshaland.no/">
     <link rel="stylesheet" href="https://www.figma.com/design/VYETZFt6kVCbpPdvliSfK3/Craftsvilla?node-id=14-4&p=f&t=ZbaP6nmZyXyCe1sE-0">
     <link rel="stylesheet" href="hjemmeside.css">
@@ -10,16 +11,38 @@
 </head>
 <body>
     <header>
-        <div>
-            <h1>Craftsvilla</h1>
-            <!--Remember to add icons-->
-            <button>Galleri</button>
-
-            <button>Tilbakemeldinger</button>
-        </div>
-
-        <div>
-            <img src="assets/pictures/bilde.png" alt="Picture of Knut Andre Vikshåland painting">
+        <div id="header-box">
+            <div id="#header-img"></div>
+            <div class="nav-box">
+                <div class="nav-box, header-logo, feedback-btn, gallery-btn">
+                    <h1>
+                        <ul>
+                            <li class="color-orange">C</li>
+                            <li>R</li>
+                            <li>A</li>
+                            <li>F</li>
+                            <li>T</li>
+                            <li>S</li>
+                            <li class="color-orange">V</li>
+                            <li>I</li>
+                            <li>L</li>
+                            <li>L</li>
+                            <li>A</li>
+                        </ul>
+                    </h1>
+                    <div class="icon-box">
+                        <p>Galleri</p>
+                        <div class="gallery-btn">
+                            <span class="material-symbols-outlined">gallery_thumbnail</span>
+                        </div>
+                        <p>Tilbakemeldinger</p>
+                        <div class="feedback-btn">
+                            <span class="material-symbols-outlined">comment</span>
+                        </div>
+                    </div>
+                    
+                </div>             
+            </div>
         </div>
     </header>
 
@@ -32,13 +55,18 @@
             alle aldre kan nyte kvalitetstid sammen i fritiden, lage kunst og utforske 
             kreativiteten sin.
             </p>
-
+            
             <img src="assets/pictures/bilde1.png" alt="">
         </div>
         
-        <div>
+    </main>
+        
+        <footer>
+
             <div>
-                <button>BESTILL HER</button>   
+
+                <button>BESTILL HER</button>
+            
             </div>
             
             <h2>Tjenester som tilbys:</h2>
@@ -71,8 +99,6 @@
                     (Merk: Flere kunstformer vil bli introdusert i fremtiden.)
                 </p>
             </ol>
-        </div>
-
-    </main>
+        </footer>
 </body>
 </html>
