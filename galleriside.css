@@ -1,0 +1,9 @@
+.flex-gallery {
+    display: flex;
+}
+
+#img-first {
+    width: 25%;
+    height: 2%;
+    margin: 0%;
+}
