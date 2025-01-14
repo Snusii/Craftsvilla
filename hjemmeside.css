@@ -117,6 +117,20 @@ html, body {
     margin: 5%;
 }
 
+.text-container > p {
+    font-family: "Kalam", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 4%;
+    margin-right: 60%;
+}
+
+.text-container > img {
+    max-width: 32%;
+    height: auto;
+    margin-left: 3%;
+}
+
 .kalam-regular {
     font-family: "Kalam", serif;
     font-weight: 400;
