@@ -1,5 +1,8 @@
+/*Header*/
+
 html, body {
-    background-color: #FBF9AA;
+    /*background-color: #FBF9AA;*/
+    background-color: #D49E52;
     margin: 0;
 }
 
@@ -85,12 +88,12 @@ html, body {
 
 .gallery-box {
     color: #FFFFFF;
-    margin: 0% 10% 2% 10%;
+    margin: 0% 10% 4% 10%;
 }
 
 .feedback-box {
     color: #FFFFFF;
-    margin: 0% 10% 2% 10%;
+    margin: 0% 10% 4% 10%;
 }
 
 #gallery-btn {
@@ -116,6 +119,8 @@ html, body {
 .icons {
     margin: 5%;
 }
+
+/*Main*/
 
 .text-container > p {
     font-family: "Kalam", serif;
