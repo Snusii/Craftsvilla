@@ -122,20 +122,58 @@ html, body {
 
 /*Main*/
 
-.text-container > p {
+#text-container {
+    display: flex;
+}
+
+.first-text > p {
     font-family: "Kalam", serif;
     font-weight: 400;
     font-style: normal;
     padding: 4%;
-    margin-right: 60%;
+    margin-right: 44%;
 }
 
-.text-container > img {
-    max-width: 32%;
+.first-text > img {
+    max-width: 45%;
     height: auto;
-    margin-left: 3%;
+    margin-left: 4%;
 }
 
+.second-text {
+    padding: 8%;
+}
+
+.second-text * button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 10%;
+    font-weight: bold;
+    border-radius: 16px;
+    text-decoration: none;
+}
+
+
+.service-text {
+    margin-top: 43%;
+    margin-left: -230%;
+    font-family: "Kalam", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.service-text > h2 {
+    font-weight: bold;
+    margin-bottom: -0.8%;
+}
+
+.notice-text {
+    margin-left: -5%
+}
+
+/* Font family */
 .kalam-regular {
     font-family: "Kalam", serif;
     font-weight: 400;
