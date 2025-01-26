@@ -1,8 +1,8 @@
 /*Header*/
 
 html, body {
-    /*background-color: #FBF9AA;*/
-    background-color: #D49E52;
+    background-color: #FBF9AA;
+    /*background-color: #D49E52;*/
     margin: 0;
 }
 
@@ -36,8 +36,7 @@ html, body {
     overflow: hidden;
 }
 
-.vertical-text
-{
+.vertical-text {
     color: #FFFFFF;
     font-family: "Kalam", serif;
     font-weight: 700;
@@ -69,7 +68,7 @@ html, body {
     font-family: "Kalam", serif;
     font-weight: 700;
     font-style: normal;
-    padding: 28%;
+    padding: 33%;
     margin-left: -15%;
     
 }
@@ -80,10 +79,6 @@ html, body {
     font-family: "Kalam", serif;
     font-weight: 700;
     font-style: normal;
-}
-
-.btn-text {
-    margin-bottom: 0%;
 }
 
 .gallery-box {
@@ -97,9 +92,9 @@ html, body {
 }
 
 #gallery-btn {
+    background-color: #D49E52;
     display: flex;
     justify-content: center;
-    background-color: #D49E52;
     margin-right: -25%;
     margin-left: -25%;
     border-radius: 16px;
@@ -107,9 +102,9 @@ html, body {
 }
 
 #feedback-btn {
+    background-color: #D49E52;
     display: flex;
     justify-content: center;
-    background-color: #D49E52;
     margin-right: -10%;
     margin-left: -10%;
     border-radius: 16px;
@@ -120,57 +115,62 @@ html, body {
     margin: 5%;
 }
 
-/*Main*/
-
-#text-container {
-    display: flex;
-}
-
 .first-text > p {
     font-family: "Kalam", serif;
     font-weight: 400;
     font-style: normal;
-    padding: 4%;
-    margin-right: 44%;
+    font-size: 18px;
+    align-items: center;
+    margin: 3% 15% 3% 4%;
 }
 
-.first-text > img {
-    max-width: 45%;
-    height: auto;
+#text-container {
+    display: flex;
+    justify-content: space-between;
     margin-left: 4%;
+    margin-right: 10%;
+
 }
 
-.second-text {
-    padding: 8%;
+.service-img {
+    
 }
 
-.second-text * button {
-    background-color: #000000;
-    color: #FFFFFF;
-    border: none;
-    padding: 10%;
-    font-weight: bold;
-    border-radius: 16px;
-    text-decoration: none;
+.service-img > img {
+    max-width: 100%;
+    width: 75%;
+    height: auto;
 }
-
 
 .service-text {
-    margin-top: 43%;
-    margin-left: -230%;
+    margin: -1.8% 7% 0% -12%;
     font-family: "Kalam", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
 }
 
+.service-text > button {
+    background-color: #252323;
+    color: #FFFFFF;
+    border: none;
+    padding: 1.5%;
+    font-weight: bold;
+    border-radius: 16px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: -1%;
+    margin-left: 38%;
+}
+
 .service-text > h2 {
     font-weight: bold;
-    margin-bottom: -0.8%;
+
 }
 
 .notice-text {
-    margin-left: -5%
+    margin-top: 4%;
+    margin-left: -6%
 }
 
 /* Font family */
