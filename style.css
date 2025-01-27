@@ -338,16 +338,10 @@ html, body {
     text-align: center;
 }
 
-#gallery > span {
-    
-    margin-left: 5%;
-    
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 2%;
     padding: 5%;
 }
@@ -357,6 +351,11 @@ html, body {
     height: auto;
 }
 
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 2%;
+}
 
 
 
