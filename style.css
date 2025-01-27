@@ -338,17 +338,26 @@ html, body {
     text-align: center;
 }
 
-#gallery {
+#gallery > span {
     
+    margin-left: 5%;
     
 }
 
-.flex-gallery {
+.grid-container {
     display: grid;
-    min-width: 100%;
-    max-width: 33.33%;
-    padding: 2%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2%;
+    padding: 5%;
 }
+
+.grid {
+    width: 100%;
+    height: auto;
+}
+
+
 
 
 
