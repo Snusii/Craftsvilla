@@ -232,6 +232,12 @@ html, body {
     border: none;
 }
 
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5% 6%;
+}
+
 
 /* FEEDBACK PAGE */
 
