@@ -219,6 +219,46 @@ html, body {
 
 /* FEEDBACK PAGE */
 
+.feedback-nav {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 1% 1% 0% 5%;
+}
+
+#questions-container {
+    background-color: #252323;
+    display: flex;
+    max-width: 100%;
+    margin: 2% 15%;
+    padding: 2%; 
+    border-radius: 16px;
+}
+
+.questions {
+    color: #FFFFFF;
+}
+
+.question-text {
+    margin-top: -3%;
+}
+
+.answer {
+    background-color: #FFFFFF;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.answer > button {
+    background-color: #D49E52;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    margin-top: 40%;
+    margin-left: 85.99%;
+}
+
+
 
 
 

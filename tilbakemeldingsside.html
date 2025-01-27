@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="https://www.figma.com/design/VYETZFt6kVCbpPdvliSfK3/Craftsvilla?node-id=38-14&p=f&t=ZbaP6nmZyXyCe1sE-0">
-    <link rel="stylesheet" href="tilbakemeldingsside.css">
+    <link rel="stylesheet" href="style.css">
     <title>Craftsvilla tilbakemeldinger</title>
 </head>
 <body>
     <header>
-        <span class="material-symbols-outlined">home</span>
-        <p>Hjem</p>
+        <div class="feedback-nav">
+            <span class="material-symbols-outlined">home</span>
+            <p>Hjem</p>
+        </div>
     </header>
 
     <main>
-        <div>
-            <h2>Tilbakemeldingsskjema:</h2>
-            <p>Hvem kom du med?</p>
-            <p>Hvilen kunstform valgte dere?</p>
-            <p>Hvordan opplevde dere vår Workshops?</p>
-        </div>
-        <div>
-            <p>Svarskjema:</p>
-            <button>SEND INN</button>
+        <div id="questions-container">
+            <div class="questions">
+                <h2 class="question-text">Tilbakemeldingsskjema:</h2>
+                <p>Hvem kom du med?</p>
+                <p>Hvilen kunstform valgte dere?</p>
+                <p>Hvordan opplevde dere vår Workshops?</p>
+            </div>
+
+            <div class="answer">
+                <button>SEND INN</button>
+            </div>
         </div>
     </main>
 
