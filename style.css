@@ -155,10 +155,18 @@ html, body {
     margin-left: 38%;
 }
 
+/* footer adjusments for all pages */
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5% 6%;
+}
+
 
 
 /* BOOKING PAGE */
 
+/* booking nav adjustments */
 .booking-nav {
     display: flex;
     align-items: center;
@@ -166,6 +174,7 @@ html, body {
     padding: 1% 1% 0% 5%;
 }
 
+/* booking nav's,  a tag adjustments */
 .booking-nav > a {
     text-decoration: none;
     color: #000000;
@@ -175,7 +184,7 @@ html, body {
     font-size: 40px;
     text-align: center;
 }
-
+/* everything insinde workshop container and google calandar */
 #booking-container {
     display: flex;
     justify-content: center;
@@ -183,6 +192,7 @@ html, body {
     margin: 3% 5%;
 }
 
+/* Everything inside workshop container adjustments */
 .workshop-container {
     background-color: #252323;
     display: block;
@@ -192,6 +202,7 @@ html, body {
     width: 100%;
 }
 
+/* All workshops adjustments */
 #workshops {
     display: flex;
     flex-direction: column;
@@ -209,11 +220,12 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-
+/* margin on time one so its space between time one and time two */
 .time-one {
     margin-right: 3%;
 }
 
+/* choose time btn */
 .time-btn {
     background-color: #D49E52;
     color: #FFFFFF;
@@ -222,6 +234,7 @@ html, body {
     outline: #252323;
 }
 
+/* purchase btn adjustments */
 #purchase-btn {
     margin-top: 4%;
     margin-left: 85%;
@@ -232,11 +245,6 @@ html, body {
     border: none;
 }
 
-footer {
-    display: flex;
-    justify-content: flex-end;
-    margin: 5% 6%;
-}
 
 
 /* FEEDBACK PAGE */
