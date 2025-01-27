@@ -96,8 +96,12 @@ html, body {
     justify-content: center;
     margin-right: -10%;
     margin-left: -10%;
-    border-radius: 16px;
-    
+    border-radius: 16px; 
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .icons {
@@ -318,16 +322,14 @@ html, body {
     
 }
 
-.flexgallery-one {
-    display: flex;
+.flex-gallery {
+    display: grid;
     min-width: 100%;
     max-width: 33.33%;
     padding: 2%;
 }
 
-.flexgallery-two {
-    display: flex;
-}
+
 
 
 
