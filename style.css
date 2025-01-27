@@ -250,15 +250,57 @@ html, body {
 }
 
 .answer > button {
-    background-color: #D49E52;
+    background-color: #252323;
     color: #FFFFFF;
     font-weight: bold;
     border: none;
-    margin-top: 40%;
-    margin-left: 85.99%;
+    border-radius: 16px;
+    width: 15.5%;
+    margin: 40% 0% 0.5% 84%;
+}
+
+.previous-text {
+    text-align: center;
+}
+
+#previous-feedback {
+    display: flex;
+    margin: 2%;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.feedback-one {
+    background-color: #E3AB31;
+    width: 33.33%;
+    height: 300px;
+    margin-right: 1%;
+    padding: 3%;
+    border-radius: 16px;
+
+}
+
+.feedback-two {
+    background-color: #D08255;
+    width: 33.33%;
+    height: 300px;
+    margin-right: 1%;
+    padding: 3%;
+    border-radius: 16px;
+}
+
+.feedback-three {
+    background-color: #AB694D;
+    width: 33.33%;
+    height: 300px;
+    padding: 3%;
+    border-radius: 16px;
 }
 
 
+/* GALLERY PAGE */
 
 
 
@@ -267,18 +309,4 @@ html, body {
 
 
 
-
-
-/* Font family */
-.kalam-regular {
-    font-family: "Kalam", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .kalam-bold {
-    font-family: "Kalam", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
     
