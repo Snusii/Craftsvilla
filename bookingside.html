@@ -3,72 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="https://www.figma.com/design/VYETZFt6kVCbpPdvliSfK3/Craftsvilla?node-id=29-67&p=f&t=ZbaP6nmZyXyCe1sE-0">
-    <link rel="stylesheet" href="bookingside.css">
+    <link rel="stylesheet" href="style.css">
     <title>Craftsvilla booking</title>
 </head>
 <body>
+    
     <header>
 
-        <div>
+        <div class="booking-nav">
             <span class="material-symbols-outlined">home</span>
             <p>Hjem</p>
         </div>
 
-        <h2>Bestilling</h2>
+        <h2 class="booking-text">Bestilling</h2>
 
     </header>
 
     <main>
-        <div>
+        <div id="booking-container">
+           
+            <div class="google-calendar">                
+                <iframe src="https://calendar.google.com/calendar/embed?height=500&wkst=2&ctz=Europe%2FOslo&showPrint=0&mode=AGENDA&showCalendars=0&showTabs=0&showTz=0&hl=no&showNav=0&src=OTFhNDQ2ZDYwZGYwMzNhNjEzMWMxMGE5NDk5MDUzZjllODUwM2ZlZjJjZmU1NGFkZTU3ZWQ0ZWYzMDU3OTdkN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4ubm9yd2VnaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161&color=%230B8043" style="border:solid 1px #777" width="500" height="500" frameborder="0" scrolling="no"></iframe>
+            </div>
 
-            <p>Velg kunstform:</p>
+            <div class="workshop-container">
+                <h2 class="orange-text">Tilgjengelige Workshops:</h2>
+                
+                <div id="workshops">
+                    <div id="mosaikk-workshop">
 
-            <p><b>Mosaikk Kunst</b> - 400 kr</p>
+                        <p>Mosaikk Kunst:</p>
+                        <div class="time-choice">
+                            <div class="time-one">
+                                <p>15.00 - 17.30</p>
+                                <button class="time-btn">Velg tid</button>
+                            </div>
+                            <div class="time-two">
+                                <p>17.30 - 20.00</p>
+                                <button class="time-btn">Velg tid</button>
+                            </div>
+                        </div>
+                        
+                    </div>
 
-            <button class="choose-btn">Velg</button>
+                    <div id="akvarellmaling-workshop">
+                        <p>Akvarellmaling:</p>
+                        <div class="time-choice">
+                            <div class="time-one">
+                                <p>15.00 - 17.30</p>
+                                <button class="time-btn">Velg tid</button>
+                            </div>
+                            <div class="time-two">
+                                <p>17.30 - 20.00</p>
+                                <button class="time-btn">Velg tid</button>
+                            </div>
+                        </div>
+                        
+                    </div>
 
-            <p><b>Akvarellmaling</b> - 200 kr</p>
+                    <div id="lerretsmaling-workshop">
+                        <p>Lerretsmaling:</p>
+                        <div class="time-choice">
+                            <div class="time-one">
+                                <p>15.00 - 17.30</p>
+                                <button class="time-btn">Velg tid</button>
+                            </div>
+                            <div class="time-two">
+                                <p>17.30 - 20.00</p>
+                                <button class="time-btn">Velg tid</button>
+                            </div>
+                        </div>
+                    </div>
 
-            <button class="choose-btn">Velg</button>
+                    <div>
+                        <button id="purchase-btn">BETAL NÅ</button>
+                    </div>
+                </div>
+                
 
-            <p><b>Lerretsmaling</b> - 300 kr</p>
+                
 
-            <button class="choose-btn">Velg</button>
+                
 
+            </div>
         </div>
-
-        <div>
-
-            <p>Kalender</p>
-
-        </div>
-
-        <div>
-
-            <p>Tilgjengelige Workshops:</p>
-
-            <p id="mosaikkAvailable">Mosaikk Kunst:</p>
-            <p class="mosaikkTime-one">15.00 - 17.30</p>
-            <button class="mosaikkTime-one">Velg tid</button>
-            <p class="mosaikkTime-two">17.30 - 20.00</p>
-            <button class="mosaikkTime-two">Velg tid</button>
-
-            <p id="akvarellmalingAvailable">Akvarellmaling:</p>
-            <p class="akvarellmalingTimeOne">15.00 - 17.30</p>
-            <button class="akvarellmalingTimeOne">Velg tid</button>
-            <p class="akvarellmalingTimeTwo">17.30 - 20.00</p>
-            <button class="akvarellmalingTimeTwo">Velg tid</button>
-
-            <p id="lerretsmalingAvailable">Lerretsmaling</p>
-            <p class="lerretsmalingTimeOne">15.00 - 17.30</p>
-            <button class="lerretsmalingTimeOne">Velg tid</button>
-            <p class="lerretsmalingTimeTwo">17.30 - 20.00</p>
-            <button class="lerretsmalingTimeTwo">Velg tid</button>
-        
-        </div>
-
-        <button>BESTIL</button>
         
         <script src="bookingside.js"></script>
     </main>

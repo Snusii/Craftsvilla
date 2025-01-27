@@ -1,12 +1,12 @@
-/*Header*/
+/* HOMEPAGE */
 
 html, body {
     background-color: #FBF9AA;
-    /*background-color: #D49E52;*/
-    margin: 0;
+    margin: 0%;
+    font-family: "Kalam", serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
-
 
 #header-box {
     display: flex;
@@ -21,15 +21,11 @@ html, body {
     display: flex;
 }
 
-
-
 #header-img {
-        width: 70%;
-        height: auto;
-        margin-top: -3.5%;
-        background-image: url("assets/pictures/bilde.png");
-        
-        
+    width: 70%;
+    height: auto;
+    margin-top: -3.5%;
+    background-image: url("assets/pictures/bilde.png");   
 }
 
 .vertical-text-box {
@@ -38,9 +34,7 @@ html, body {
 
 .vertical-text {
     color: #FFFFFF;
-    font-family: "Kalam", serif;
-    font-weight: 700;
-    font-style: normal;
+    font-weight: bold;
     writing-mode: vertical-rl;
     text-orientation: upright;
     word-wrap: break-word;
@@ -65,20 +59,15 @@ html, body {
 
 .nav-text-box > p {
     color: #FFFFFF;
-    font-family: "Kalam", serif;
-    font-weight: 700;
-    font-style: normal;
+    font-weight: bold;
     padding: 33%;
     margin-left: -15%;
-    
 }
 
 .btn-box {
     display: flex;
     justify-content: flex-end;
-    font-family: "Kalam", serif;
-    font-weight: 700;
-    font-style: normal;
+    font-weight: bold;
 }
 
 .gallery-box {
@@ -116,11 +105,8 @@ html, body {
 }
 
 .first-text > p {
-    font-family: "Kalam", serif;
-    font-weight: 400;
-    font-style: normal;
+
     font-size: 18px;
-    align-items: center;
     margin: 3% 15% 3% 4%;
 }
 
@@ -129,11 +115,6 @@ html, body {
     justify-content: space-between;
     margin-left: 4%;
     margin-right: 10%;
-
-}
-
-.service-img {
-    
 }
 
 .service-img > img {
@@ -144,13 +125,16 @@ html, body {
 
 .service-text {
     margin: -1.8% 7% 0% -12%;
-    font-family: "Kalam", serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 15px;
 }
 
-.service-text > button {
+
+.notice-text {
+    margin-top: 4%;
+    margin-left: -6%
+}
+
+#order-btn {
     background-color: #252323;
     color: #FFFFFF;
     border: none;
@@ -159,19 +143,91 @@ html, body {
     border-radius: 16px;
     text-decoration: none;
     position: absolute;
-    margin-top: -1%;
     margin-left: 38%;
 }
 
-.service-text > h2 {
+
+
+/* BOOKING PAGE */
+
+.booking-nav {
+    display: flex;
+    align-items: center;
+    padding: 1% 1% 0% 5%;
+}
+
+.booking-text {
+    font-size: 40px;
+    text-align: center;
+}
+
+#booking-container {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin: 3% 5%;
+}
+
+.workshop-container {
+    background-color: #252323;
+    display: block;
+    padding: 2%;
+    height: 456px;
+    width: 100%;
+}
+
+#workshops {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.time-choice {
+    display: flex;
+    flex-direction: row;
+}
+
+.time-one, .time-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-one {
+    margin-right: 3%;
+}
+
+.time-btn {
+    background-color: #D49E52;
+    color: #FFFFFF;
+    border: none;
     font-weight: bold;
-
+    outline: #252323;
 }
 
-.notice-text {
+#purchase-btn {
     margin-top: 4%;
-    margin-left: -6%
+    margin-left: 85%;
+    margin-right: 0%;
+    font-weight: bold;
+    background-color: #D49E52;
+    padding: 1%;
+    border: none;
 }
+
+
+/* FEEDBACK PAGE */
+
+
+
+
+
+
+
+
+
+
 
 /* Font family */
 .kalam-regular {
