@@ -302,8 +302,32 @@ html, body {
 
 /* GALLERY PAGE */
 
+.gallery-nav {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 1% 1% 0% 5%;
+}
 
+.gallery-text {
+    text-align: center;
+}
 
+#gallery {
+    
+    
+}
+
+.flexgallery-one {
+    display: flex;
+    min-width: 100%;
+    max-width: 33.33%;
+    padding: 2%;
+}
+
+.flexgallery-two {
+    display: flex;
+}
 
 
 
