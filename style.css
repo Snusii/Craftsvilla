@@ -1,5 +1,6 @@
 /* HOMEPAGE */
 
+/* Background color, margin and font-family for all pages. */
 html, body {
     background-color: #FBF9AA;
     margin: 0%;
@@ -8,6 +9,7 @@ html, body {
     font-style: normal;
 }
 
+/* Making the header-box flex nav-box and header-img, + background color, size and text alignment. */ 
 #header-box {
     display: flex;
     background-color: #252323;
@@ -17,10 +19,12 @@ html, body {
     
 }
 
+/* Makeing the nav-box flex its items */
 .nav-box {
     display: flex;
 }
 
+/* Header img + size. */ 
 #header-img {
     width: 70%;
     height: auto;
@@ -28,10 +32,12 @@ html, body {
     background-image: url("assets/pictures/bilde.png");   
 }
 
+/* vertical-text-box have overflow hidden so no items around it goes inside it*/
 .vertical-text-box {
     overflow: hidden;
 }
 
+/* Makeing the h1 flow vertical + size and color. */
 .vertical-text {
     color: #FFFFFF;
     font-weight: bold;
@@ -42,10 +48,12 @@ html, body {
     padding: 22%;
 }
 
+/* Makeing text with this class orange. */
 .orange-text {
     color: #D49E52;
 }
 
+/* Flexing items inside nav-box2, and makeing content and items flex-end */
 .nav-box2 {
     display: flex;
     flex-direction: column;
@@ -53,10 +61,11 @@ html, body {
     align-items: flex-end;
 }
 
+/* Makeing nav text2 have a margin bottom ? add it under here?*/
 .nav-text-box {
     margin-bottom: 3.5%;
 }
-
+/* Nav-text-box p tag with margin, padding, font weight and color*/
 .nav-text-box > p {
     color: #FFFFFF;
     font-weight: bold;
@@ -64,12 +73,14 @@ html, body {
     margin-left: -15%;
 }
 
+/* Makeing items inside btn-box flex, and justify its content flex end and font weight*/
 .btn-box {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
 }
 
+/* Make same class for this two? margin and color inside is the same */ 
 .gallery-box {
     color: #FFFFFF;
     margin: 0% 10% 4% 10%;
@@ -80,14 +91,14 @@ html, body {
     margin: 0% 10% 4% 10%;
 }
 
+/* Gallery and feedback btn adjustments they have the same */ 
 #gallery-btn {
     background-color: #D49E52;
     display: flex;
     justify-content: center;
     margin-right: -25%;
-    margin-left: -25%;
+    margin-left: -25%; 
     border-radius: 16px;
-
 }
 
 #feedback-btn {
@@ -99,6 +110,7 @@ html, body {
     border-radius: 16px; 
 }
 
+/* Gallery and feedback btns a tag adjustments - same for both */
 #gallery-btn > a {
     text-decoration: none;
     color: #FFFFFF;
@@ -109,16 +121,19 @@ html, body {
     color: #FFFFFF;
 }
 
+/* Where is this class? */
 .icons {
     margin: 5%;
 }
 
+/* text adjustmens for p tag inside this class*/
 .first-text > p {
 
     font-size: 18px;
     margin: 3% 15% 3% 4%;
 }
 
+/* text conteiner adjustments */
 #text-container {
     display: flex;
     justify-content: space-between;
@@ -126,23 +141,26 @@ html, body {
     margin-right: 10%;
 }
 
+/* service-img adjustments */
 .service-img > img {
     max-width: 100%;
     width: 75%;
     height: auto;
 }
 
+/* service-text adjustments */
 .service-text {
     margin: -1.8% 7% 0% -12%;
     font-size: 15px;
 }
 
-
+/* notice-text adjustments*/
 .notice-text {
     margin-top: 4%;
     margin-left: -6%
 }
 
+/* order-btn adjustments */
 #order-btn {
     background-color: #252323;
     color: #FFFFFF;
@@ -249,6 +267,7 @@ footer {
 
 /* FEEDBACK PAGE */
 
+/* Feedback-nav adjustments*/
 .feedback-nav {
     display: flex;
     align-items: center;
@@ -256,11 +275,13 @@ footer {
     padding: 1% 1% 0% 5%;
 }
 
+/* Feedback-nav a tag adjustments */
 .feedback-nav > a {
     text-decoration: none;
     color: #000000;
 }
 
+/* questions-container adjustments */
 #questions-container {
     background-color: #252323;
     display: flex;
@@ -270,20 +291,23 @@ footer {
     border-radius: 16px;
 }
 
+/* This inside .questions-text ? */
 .questions {
     color: #FFFFFF;
 }
-
+/* Adjustments made for question-text */
 .question-text {
     margin-top: -3%;
 }
 
+/* answer adjustments */
 .answer {
     background-color: #FFFFFF;
     width: 90%;
     margin-left: 5%;
 }
 
+/* button inside answer adjustments */
 .answer > button {
     background-color: #252323;
     color: #FFFFFF;
@@ -294,10 +318,12 @@ footer {
     margin: 40% 0% 0.5% 84%;
 }
 
+/* h2 adjustments */ 
 .previous-text {
     text-align: center;
 }
 
+/* previous-feedback adjustments */
 #previous-feedback {
     display: flex;
     margin: 2%;
@@ -306,7 +332,7 @@ footer {
     align-items: center;
     align-content: center;
 }
-
+/* feedback one,two and three adjustments. Maybe give them the same class? */
 .feedback-one {
     background-color: #E3AB31;
     width: 33.33%;
@@ -335,8 +361,10 @@ footer {
 }
 
 
+
 /* GALLERY PAGE */
 
+/* gallery-nav adjustments */
 .gallery-nav {
     display: flex;
     align-items: center;
@@ -344,16 +372,18 @@ footer {
     padding: 1% 1% 0% 5%;
 }
 
+/* gallery-nav a tag adjustments */
 .gallery-nav > a {
     text-decoration: none;
     color: #000000;
 }
 
+/* gallery-text adjustments*/
 .gallery-text {
     text-align: center;
     font-size: 40px;
 }
-
+/* makeing grid-container (img) grid + other adjustments */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -362,27 +392,21 @@ footer {
     padding: 5%;
 }
 
+/* grid size (img) */
 .grid {
     width: 100%;
     height: 275px;
     transition: transform 0.3s ease;
 }
 
-.grid:hover {
+/* hover transforming adjusmenst inside the grid class */
+.grid:hover { 
     transform: scale(1.1);
 }
 
+/* arrows adjustments */
 .arrows {
     display: flex;
     justify-content: space-between;
     margin: 0% 2%;
 }
-
-
-
-
-
-
-
-
-    
