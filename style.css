@@ -32,7 +32,7 @@ html, body {
     background-image: url("assets/pictures/bilde.png");   
 }
 
-/* vertical-text-box have overflow hidden so no items around it goes inside it*/
+/* vertical-text-box adjustments*/
 .vertical-text-box {
     overflow: hidden;
 }
@@ -41,9 +41,10 @@ html, body {
 .vertical-text {
     color: #FFFFFF;
     font-weight: bold;
+    /* make text vertical */
     writing-mode: vertical-rl;
+    /* make text upright */
     text-orientation: upright;
-    word-wrap: break-word;
     font-size: 22px;
     padding: 22%;
 }
@@ -61,7 +62,7 @@ html, body {
     align-items: flex-end;
 }
 
-/* Makeing nav text2 have a margin bottom ? add it under here?*/
+/* Makeing nav-text-box have a margin bottom*/
 .nav-text-box {
     margin-bottom: 3.5%;
 }
@@ -119,11 +120,6 @@ html, body {
 #feedback-btn > a {
     text-decoration: none;
     color: #FFFFFF;
-}
-
-/* Where is this class? */
-.icons {
-    margin: 5%;
 }
 
 /* text adjustmens for p tag inside this class*/
@@ -198,10 +194,12 @@ footer {
     color: #000000;
 }
 
+/* booking-text adjustments*/
 .booking-text {
     font-size: 40px;
     text-align: center;
 }
+
 /* everything insinde workshop container and google calandar */
 #booking-container {
     display: flex;
@@ -238,6 +236,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 /* margin on time one so its space between time one and time two */
 .time-one {
     margin-right: 3%;
@@ -291,10 +290,11 @@ footer {
     border-radius: 16px;
 }
 
-/* This inside .questions-text ? */
+/* .questions color */
 .questions {
     color: #FFFFFF;
 }
+
 /* Adjustments made for question-text */
 .question-text {
     margin-top: -3%;
